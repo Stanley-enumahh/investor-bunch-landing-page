@@ -21,17 +21,17 @@ export function Footer() {
           </p>
 
           <ul className="flex flex-row gap-4">
-            <span className="p-2 rounded-full dark:bg-[#343434] cursor-pointer text-white bg-neutral-100">
+            <span className="p-2 rounded-full dark:bg-[#343434] cursor-pointer dark:text-white bg-neutral-100">
               <FaTwitter className="hover:scale-95 duration-200 transition-all" />{" "}
             </span>
-            <span className="p-2 rounded-full dark:bg-[#343434] cursor-pointer text-white bg-neutral-100">
+            <span className="p-2 rounded-full dark:bg-[#343434] cursor-pointer dark:text-white bg-neutral-100">
               <FaFacebookF className="hover:scale-95 duration-200 transition-all" />
             </span>
 
-            <span className="p-2 rounded-full dark:bg-[#343434] cursor-pointer text-white bg-neutral-100">
+            <span className="p-2 rounded-full dark:bg-[#343434] cursor-pointer dark:text-white bg-neutral-100">
               <FaInstagram className="hover:scale-95 duration-200 transition-all" />
             </span>
-            <span className="p-2 rounded-full dark:bg-[#343434] cursor-pointer text-white bg-neutral-100">
+            <span className="p-2 rounded-full dark:bg-[#343434] cursor-pointer dark:text-white bg-neutral-100">
               <IoLogoGithub className="hover:scale-95 duration-200 transition-all" />
             </span>
           </ul>
