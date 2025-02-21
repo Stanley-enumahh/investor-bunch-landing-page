@@ -31,8 +31,8 @@ export function TopBar() {
   );
 
   return (
-    <div className="w-full flex justify-center fixed mt-[35px]">
-      <div className="flex flex-row gap-2 h-[70px] w-[95%] shadow-lg dark:bg-[#323131] rounded-3xl border dark:border-[#6F6F6F] border-gray-300 bg-[#f8f8f8] justify-between px-3">
+    <div className="w-full flex justify-center fixed mt-[35px] ">
+      <div className="flex flex-row gap-2 h-[70px] w-[95%] shadow-lg dark:bg-[#323131] rounded-3xl border dark:border-[#6F6F6F] border-gray-300 bg-[#f8f8f8] justify-between px-3  transition-all duration-150">
         <div className="flex flex-row gap-5 items-center">
           <img
             src={logo}

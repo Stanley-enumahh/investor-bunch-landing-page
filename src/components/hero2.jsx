@@ -14,16 +14,16 @@ export function Hero2() {
 
 function Organizer() {
   return (
-    <div className="flex flex-col w-[490px] gap-6">
+    <div className="flex flex-col w-[490px]  gap-6">
       <h1 className="font-bold">Organized by</h1>
-      <div className="flex flex-row justify-between rounded-2xl dark:bg-[#545454] bg-gray-300 p-4">
+      <div className="flex flex-row justify-between rounded-2xl  transition-all duration-150 dark:bg-[#545454] bg-gray-300 p-4">
         <span className="flex flex-col gap-1">
           <h1>NHD FOUNDATION</h1>
           <p className="text-xs text-gray-500 dark:text-gray-400">300 likes</p>
         </span>
         <span className="flex flex-row gap-6 items-center">
           <p className="text-sm">Details</p>
-          <button className="bg-gradient-to-r from-black to-[#a4a4a4] rounded-md px-7 h-fit text-neutral-200 py-2 hover:opacity-90 transition-all duration-200 cursor-pointer dark:to-[#a4a4a4] dark:from-white dark:text-black text-sm font-semibold">
+          <button className="bg-gradient-to-r from-black to-[#a4a4a4] rounded-md px-7 h-fit text-neutral-200 py-2 hover:opacity-90 transition-all duration-200 cursor-pointer  dark:to-[#a4a4a4] dark:from-white dark:text-black text-sm font-semibold">
             Like
           </button>
         </span>
@@ -68,7 +68,7 @@ function Organizer() {
           name=""
           id=""
           placeholder="Send a message to other attendees"
-          className="text-sm text-gray-600 dark:text-white w-[300px] outline-none"
+          className="text-sm text-gray-600  transition-all duration-150 dark:text-white w-[300px] outline-none"
         />
       </div>
     </div>
@@ -79,7 +79,7 @@ function Description() {
   return (
     <div className="flex flex-col gap-6 w-[620px]">
       <h1 className="font-bold">Event Description</h1>
-      <p className="text-sm text-justify dark:text-neutral-400">
+      <p className="text-sm text-justify  transition-all duration-150 dark:text-neutral-400">
         The World Art Expo is a premier international event bringing together
         artists, collectors, and enthusiasts from around the globe. Hosted at
         the iconic Louvre Museum, this three-day expo will showcase contemporary

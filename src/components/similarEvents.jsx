@@ -13,7 +13,7 @@ export function SimilarEvents() {
         <h1 className="font-bold">Explore Similar events</h1>
         <div className="flex flex-row gap-4">
           <Event>
-            <div className="flex cursor-grab  flex-col gap-4 w-[288px] h-[387px] bg-white rounded-2xl p-4 dark:bg-black">
+            <div className="flex cursor-grab  transition-all duration-150 flex-col gap-4 w-[288px] h-[387px] bg-white rounded-2xl p-4 dark:bg-black">
               <img
                 src={NFTimg}
                 alt="banner image"
@@ -35,7 +35,7 @@ export function SimilarEvents() {
             </div>
           </Event>
           <Event>
-            <div className="flex cursor-grab dark:bg-black flex-col gap-4 w-[298px] h-[387px] bg-white rounded-2xl p-4">
+            <div className="flex cursor-grab  transition-all duration-150 dark:bg-black flex-col gap-4 w-[298px] h-[387px] bg-white rounded-2xl p-4">
               <img
                 src={URUX}
                 alt=" banner image"
@@ -57,7 +57,7 @@ export function SimilarEvents() {
             </div>
           </Event>
           <Event>
-            <div className="flex cursor-grab dark:bg-black flex-col gap-4 w-[298px] h-[387px] bg-white rounded-2xl p-4">
+            <div className="flex cursor-grab  transition-all duration-150 dark:bg-black flex-col gap-4 w-[298px] h-[387px] bg-white rounded-2xl p-4">
               <img
                 src={TECHTIPS}
                 alt=" banner image"
@@ -79,7 +79,7 @@ export function SimilarEvents() {
             </div>
           </Event>
           <Event>
-            <div className="flex cursor-grab dark:bg-black flex-col gap-4 w-[298px] h-[387px] bg-white rounded-2xl p-4">
+            <div className="flex cursor-grab  transition-all duration-150 dark:bg-black flex-col gap-4 w-[298px] h-[387px] bg-white rounded-2xl p-4">
               <img
                 src={JOINUS}
                 alt=" banner image"

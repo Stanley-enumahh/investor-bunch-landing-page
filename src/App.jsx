@@ -16,7 +16,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="h-fit w-full flex flex-col gap-20 bg-[#ebebeb] dark:bg-[#1A1a1a] dark:text-white">
+    <div className="h-fit w-full flex flex-col gap-20 bg-[#ebebeb] transition-all duration-150 dark:bg-[#1A1a1a] dark:text-white">
       <div className=" w-full flex flex-col gap-14">
         <TopBar />
         <MainHero />

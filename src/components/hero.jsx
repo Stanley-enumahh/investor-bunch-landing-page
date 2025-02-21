@@ -35,7 +35,7 @@ export function Hero() {
             <div className="w-full flex flex-row justify-between ">
               <div className="flex flex-row gap-3 items-center">
                 <span className="border font-semibold items-center justify-center flex flex-col rounded-xl overflow-hidden border-gray-300 dark:border-gray-600">
-                  <h1 className="bg-[#f8f8f8] dark:bg-[#343434] w-full py-1 px-4 text-sm">
+                  <h1 className="bg-[#f8f8f8]  transition-all duration-150 dark:bg-[#343434] w-full py-1 px-4 text-sm">
                     Sep
                   </h1>
                   <h2 className="text-lg px-4 py-1">22</h2>
@@ -50,7 +50,7 @@ export function Hero() {
                 <span className="border rounded-xl p-4 border-gray-300 dark:border-gray-600">
                   <IoLocationOutline
                     size={30}
-                    className="dark:text-white text-black"
+                    className="dark:text-white  transition-all duration-150 text-black"
                   />
                 </span>
                 <span className="flex flex-col gap-1 text-sm">
@@ -84,7 +84,7 @@ function Ticket({
   amtPaid,
 }) {
   return (
-    <div className="flex flex-col gap-3 w-full bg-[#f8f8f8] dark:bg-black rounded-xl overflow-hidden">
+    <div className="flex flex-col gap-3 w-full  transition-all duration-150 bg-[#f8f8f8] dark:bg-black rounded-xl overflow-hidden">
       <h1 className="font-semibold text-lg p-4 rounded-t-xl dark:text-white dark:bg-[#343434]">
         Tickets
       </h1>
@@ -108,7 +108,7 @@ function Ticket({
             <span className=" font-bold">{amtFree}</span>
             <button
               onClick={handleAdd}
-              className="bg-gradient-to-r h-fit cursor-pointer px-[6px] flex justify-center items-center dark:to-white dark:from-[#AEAEAE] dark:text-black text-white from-[#AEAEAE] to-black rounded-md"
+              className="bg-gradient-to-r  transition-all duration-150 h-fit cursor-pointer px-[6px] flex justify-center items-center dark:to-white dark:from-[#AEAEAE] dark:text-black text-white from-[#AEAEAE] to-black rounded-md"
             >
               +
             </button>

@@ -14,7 +14,9 @@ export function Footer() {
               alt="logo"
               className="w-[50px] h-[50px] object-cover"
             />
-            <h1 className="font-bold text-xl ">Bloc Social</h1>
+            <h1 className="font-bold text-xl  transition-all duration-150">
+              Bloc Social
+            </h1>
           </span>
           <p className="text-sm">
             Turn events into unforgettable experiences <br /> with Bloc Social
@@ -47,14 +49,16 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-8">
-          <h1 className="font-bold">Subscribe to Newsletter</h1>
+          <h1 className="font-bold  transition-all duration-150">
+            Subscribe to Newsletter
+          </h1>
           <div className="h-[56px] flex flex-row">
             <input
               type="text"
-              className="w-[350px] h-full text-sm px-5 border border-gray-300 outline-none rounded-tl-lg rounded-bl-lg dark:bg-[#343434] dark:border-none bg-neutral-100"
+              className="w-[350px] h-full text-sm px-5 border border-gray-300 outline-none rounded-tl-lg rounded-bl-lg dark:bg-[#343434] dark:border-none bg-neutral-100 dark:text-neutral-200 text-black  transition-all duration-150"
               placeholder="Enter email address "
             />
-            <button className="bg-gradient-to-r dark:to-[#a4a4a4] dark:from-white to-[#a4a4a4] from-black text-neutral-200 px-9 cursor-pointer hover:opacity-80 transition-all duration-200 text-sm h-full justify-center rounded-tr-lg rounded-br-lg dark:text-black">
+            <button className="bg-gradient-to-r dark:to-[#a4a4a4] dark:from-white to-[#a4a4a4] from-black text-neutral-200 px-9 cursor-pointer hover:opacity-80 transition-all duration-200 text-sm h-full justify-center rounded-tr-lg rounded-br-lg dark:text-black ">
               Join
             </button>
           </div>
