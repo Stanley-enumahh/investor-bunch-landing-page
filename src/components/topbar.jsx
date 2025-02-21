@@ -45,7 +45,7 @@ export function TopBar() {
               name=""
               id=""
               placeholder="Search events"
-              className="px-2 py-2 outline-none border-none font-normal "
+              className="px-2 py-2 outline-none border-none text-black dark:text-neutral-200"
             />
             <div className="flex flex-row gap-2 h-full items-center">
               <p>Location</p>
