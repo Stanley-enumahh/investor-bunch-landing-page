@@ -8,12 +8,12 @@ import { LuTicket } from "react-icons/lu";
 
 export function SimilarEvents() {
   return (
-    <div className="w-full  items-center flex  flex-col h-fit ">
+    <div className="w-full  items-center flex  flex-col h-fit px-10">
       <div className="flex flex-col gap-[22px] w-[90%]">
         <h1 className="font-bold">Explore Similar events</h1>
         <div className="flex flex-row gap-4">
           <Event>
-            <div className="flex cursor-grab dark:bg-black flex-col gap-4 w-[288px] h-[387px] bg-white rounded-2xl p-4 dark:bg-black">
+            <div className="flex cursor-grab  flex-col gap-4 w-[288px] h-[387px] bg-white rounded-2xl p-4 dark:bg-black">
               <img
                 src={NFTimg}
                 alt="banner image"
