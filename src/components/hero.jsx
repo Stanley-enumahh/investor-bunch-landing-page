@@ -1,4 +1,4 @@
-import bannerImg from "../assets/Component 160.png";
+import bannerImg from "../assets/HubSpot x Slush LP_2_684969_CS-6710.jpg";
 import { IoLocationOutline } from "react-icons/io5";
 import { LuTicket } from "react-icons/lu";
 import greenDot from "../assets/Ellipse 5.png";

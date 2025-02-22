@@ -68,7 +68,7 @@ function Organizer() {
           name=""
           id=""
           placeholder="Send a message to other attendees"
-          className="text-sm  duration-150 w-[300px] outline-none text-black dark:text-neutral-200"
+          className="text-sm w-[300px] outline-none text-black dark:text-neutral-200"
         />
       </div>
     </div>

@@ -1,4 +1,4 @@
-import logo from "../assets/Frame 1618873769.png";
+import logo from "../assets/initial-letter-b-tech-logo-design-template-element-eps10-vector.jpg";
 import { IoLocationOutline } from "react-icons/io5";
 import { CiSearch } from "react-icons/ci";
 import { IoNotificationsOutline } from "react-icons/io5";
@@ -37,7 +37,7 @@ export function TopBar() {
           <img
             src={logo}
             alt="logo"
-            className="h-[45px] w-[45px] object-cover"
+            className="h-[45px] w-[45px] object-cover rounded-xl shadow-lg"
           />
           <div className="flex flex-row justify-between items-center text-sm rounded-4xl border border-gray-300 dark:border-gray-500 w-[350px] h-[45px] px-3">
             <input

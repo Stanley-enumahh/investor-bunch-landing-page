@@ -1,7 +1,7 @@
-import NFTimg from "../assets/10.png";
-import URUX from "../assets/2.png";
-import TECHTIPS from "../assets/4.png";
-import JOINUS from "../assets/9.png";
+import NFTimg from "../assets/pngtree-cool-technology-texture-nft-metaverse-promotional-poster-image_889453.jpg";
+import URUX from "../assets/poster-template-techno-store_23-2148979529.jpg";
+import TECHTIPS from "../assets/tech-bootcamp.webp";
+import JOINUS from "../assets/GettyImages-1084171152-8445a490b5894f0a9bb588dbfc2ac22d.jpg";
 import { FaStar } from "react-icons/fa";
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { LuTicket } from "react-icons/lu";
